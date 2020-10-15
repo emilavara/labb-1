@@ -293,12 +293,11 @@ dbwebb.assert("2.2", ANSWER, false);
  * Write your code below and put the answer into the variable ANSWER.
  */
 
+for (var i = 481; i <= 535; i += 6) {
 
+}
 
-
-
-
-ANSWER = "Replace this text with the variable holding the answer.";
+ANSWER = i;
 
 // I will now test your answer - change false to true to get a hint.
 dbwebb.assert("3.1", ANSWER, false);
@@ -313,12 +312,11 @@ dbwebb.assert("3.1", ANSWER, false);
  * Write your code below and put the answer into the variable ANSWER.
  */
 
+for (var d = 551; d >= 479; d -= 8) {
 
+}
 
-
-
-
-ANSWER = "Replace this text with the variable holding the answer.";
+ANSWER = d;
 
 // I will now test your answer - change false to true to get a hint.
 dbwebb.assert("3.2", ANSWER, false);
@@ -365,12 +363,15 @@ dbwebb.assert("3.3", ANSWER, false);
  * Write your code below and put the answer into the variable ANSWER.
  */
 
+var y = 10;
+var steps = 0;
 
+while (y <= 481) {
+    steps++;
+    y += 6;
+}
 
-
-
-
-ANSWER = "Replace this text with the variable holding the answer.";
+ANSWER = steps;
 
 // I will now test your answer - change false to true to get a hint.
 dbwebb.assert("4.1", ANSWER, false);
@@ -386,12 +387,15 @@ dbwebb.assert("4.1", ANSWER, false);
  * Write your code below and put the answer into the variable ANSWER.
  */
 
+var t = 551 
+var steps = 0;
 
+while (t >= 0) {
+    steps++;
+    t -= 8;
+}
 
-
-
-
-ANSWER = "Replace this text with the variable holding the answer.";
+ANSWER = steps;
 
 // I will now test your answer - change false to true to get a hint.
 dbwebb.assert("4.2", ANSWER, false);
